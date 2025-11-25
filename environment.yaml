@@ -1,0 +1,41 @@
+name: adp
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9
+  - bcftools
+  - plink
+  - sra-tools
+  - fastqc
+  - trimmomatic
+  - bwa
+  - tabix
+  - vcftools
+  - samtools
+  - gatk4
+  - beagle
+  - pip
+  - bioconda::shapeit5
+  - bioconda pbwt
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - bed-reader
+      - captum
+      - notebook
+      - pandas
+      - numpy
+      - scipy
+      - scikit-learn
+      - matplotlib
+      - cyvcf2
+      - seaborn
+      - msprime
+      - pyslim
+      - tskit
+      - adan-pytorch

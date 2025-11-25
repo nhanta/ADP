@@ -19,3 +19,8 @@ Thumbs.db
 # Folders
 data/
 preprocessing/
+my_database/
+
+# Files
+!data/vcf/snps.filtered.vcf.gz
+!data/vcf/snps.filtered.vcf.gz.tbi
