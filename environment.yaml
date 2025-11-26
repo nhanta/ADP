@@ -21,6 +21,7 @@ dependencies:
   - pip
   - bioconda::shapeit5
   - bioconda pbwt
+  - conda-forge::r-base
   - pip:
       - torch
       - torchvision

@@ -20,6 +20,7 @@ Thumbs.db
 data/
 preprocessing/
 my_database/
+!data/vcf/
 
 # Files
 !data/vcf/snps.filtered.vcf.gz
